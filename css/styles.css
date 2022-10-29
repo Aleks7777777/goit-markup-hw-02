@@ -174,3 +174,36 @@ body {
     color: var(--accentcolor);
     font-style: normal;
 }
+
+
+/* portfolio.html */
+/*filter*/
+
+.button {
+    color: #212121;
+    background-color: #F5F4FA;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em
+}
+
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.portfolio .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+}
+
+.portfolio .title-text {
+    color: var(--title-textcolor);
+    font-size: 16px;
+    line-height: 1.8;
+} 
