@@ -17,7 +17,7 @@ body {
 }
 
 
-/* header style */
+/* !header style */
 
 .logo {
     color: var(--accentcolor);
@@ -33,7 +33,7 @@ body {
 }
 
 .menu .link {
-    color: var(--title-textcolor);
+    color: #212121;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -50,7 +50,7 @@ body {
 }
 
 .contact .link {
-    color: var(--title-textcolor);
+    color: #212121;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -92,7 +92,7 @@ body {
 }
 
 
-/*features*/
+/*!features*/
 
 .section .section-title {
     font-weight: 700;
@@ -117,25 +117,21 @@ body {
 }
 
 
-/*what_we_do*/
+/*!our_company*/
 
-
-/*our_company*/
-
-.team .title {
+.company .title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
 
-.team .title-text {
+.company .title-text {
     color: var(--title-textcolor);
     font-size: 16px;
     line-height: 1.2;
 }
 
-    
-/*dasement*/
+/*!dasement*/
 
 .footer {
     background-color: var(--background-footercolor);
@@ -175,9 +171,9 @@ body {
 }
 
 
-/* portfolio.html */
+/* !portfolio.html */
 
-/*filter*/
+/*!filter*/
 
 .button {
     color: #212121;
