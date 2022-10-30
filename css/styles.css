@@ -7,9 +7,8 @@
 
 body {
     background-color: #F5F5F5;
-    color: var(--basiccolor) ;
-
-    font-family: Roboto, sans-serif;
+    color: var(--basiccolor);
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
 
@@ -24,7 +23,7 @@ body {
     color: var(--accentcolor);
     font-size: 26px;
     text-decoration: none;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.2;
 }
 
@@ -34,7 +33,7 @@ body {
 }
 
 .menu .link {
-    color: var(--title-text-color);
+    color: var(--title-textcolor);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -136,13 +135,13 @@ body {
 }
 
     
-  /*dasement*/
+/*dasement*/
 
-  .footer {
+.footer {
     background-color: var(--background-footercolor);
 }
 
-  .footer .logo-part {
+.footer .logo-part {
     color: #ffffff;
     text-decoration: none;
 }
@@ -177,6 +176,7 @@ body {
 
 
 /* portfolio.html */
+
 /*filter*/
 
 .button {
