@@ -175,7 +175,7 @@ body {
 
 /*!filter*/
 
-.button {
+.filter-btn {
     color: #212121;
     background-color: #F5F4FA;
     cursor: pointer;
@@ -185,8 +185,8 @@ body {
     letter-spacing: 0.03em
 }
 
-.button:hover,
-.button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
