@@ -6,18 +6,37 @@
 }
 
 body {
-    background-color: #F5F5F5;
-    color: var(--basiccolor);
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
+background-color: #F5F5F5;
+color: var(--basiccolor);
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
 }
 
 .list {
-    list-style: none; 
+list-style: none; 
+}
+*,
+::before
+::after {
+box-sizing: border-box;
 }
 
 
+
+h1,h2,h3,h4,h5,h6,p,ul{
+padding: 0;
+margin: 0;
+}
+
 /* !header style */
+
+.container-header {
+	background-color: coral;
+	max-width: 1630px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
 
 .logo {
     color: var(--accentcolor);
@@ -79,6 +98,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 
 .button-order {
@@ -203,3 +223,6 @@ body {
     font-size: 16px;
     line-height: 1.8;
 } 
+
+
+
